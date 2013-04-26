@@ -1,0 +1,4 @@
+#hplogo {   /*Selects the Google Logo*/
+	-webkit-transform: rotateY(180deg); /*Flip it*/
+	-webkit-box-reflect: below 106px; /*Add a reflection*/
+}

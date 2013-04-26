@@ -1,0 +1,10 @@
+{
+  "name": "GoogleLinksPrank",
+  "description": "Automatically Rick Rolls people when they click on Google search results",
+  "version": "1.0",
+  "content_scripts": [{
+  "matches": [ "*://www.google.com/*" ],
+  "js": [ "jquery.min.js", "ourCode.js" ]
+ }],
+  "manifest_version": 2
+}
