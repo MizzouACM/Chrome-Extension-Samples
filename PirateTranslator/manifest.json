@@ -1,0 +1,16 @@
+{
+  "name": "PirateTranslator",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "<all_urls>"
+  ],"icons": {
+	"32": "pirate_32.png",
+	"64": "pirate_64.png",
+	"128": "pirate_128.png"
+},
+  "background": {
+  	"scripts": ["jquery.min.js","background.js"]
+  }
+}
