@@ -1,0 +1,12 @@
+
+{
+  "name": "GoogleLogoFlip",
+  "version": "1.0",
+  "description": "Flips the Google Logo",
+  "content_scripts": [{
+    "matches": [ "*://www.google.com/*" ],
+    "css" : ["styles.css"]
+   }],
+  "manifest_version": 2
+
+}
