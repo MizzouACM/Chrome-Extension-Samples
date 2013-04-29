@@ -4,13 +4,16 @@
   "manifest_version": 2,
   "permissions": [
     "contextMenus",
-    "<all_urls>"
+    "<all_urls>",
+    "notifications"
   ],"icons": {
 	"32": "pirate_32.png",
 	"64": "pirate_64.png",
 	"128": "pirate_128.png"
-},
+  },
   "background": {
   	"scripts": ["jquery.min.js","background.js"]
-  }
+  },"web_accessible_resources": [
+    "pirate_32.png"
+  ]
 }
