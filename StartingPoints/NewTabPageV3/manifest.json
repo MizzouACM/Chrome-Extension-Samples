@@ -1,0 +1,11 @@
+{
+  "name": "NewTabPageV3",
+  "description" : "Improves the NewTabPageV2 with a list of installed apps.",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+  "permissions":["management"],
+  "manifest_version": 2
+}
