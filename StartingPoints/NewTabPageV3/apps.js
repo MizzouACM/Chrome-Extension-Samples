@@ -6,7 +6,7 @@ $(function() {
 	})
 })
 
-//gets the largest icon possible for an app
+//gets the largest possible icon for an app
 function getIconURL(app) {
   var largest = {size:0};
   for (var i = 0; i < app.icons.length; i++) {
